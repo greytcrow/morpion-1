@@ -15,6 +15,5 @@ lineA = Line.new("A")
 lineB = Line.new("B")
 lineC = Line.new("C")
 
-line = Line.new('A')
-
+board = Board.new(lineA, lineB, lineC)
 binding.pry

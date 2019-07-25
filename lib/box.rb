@@ -1,4 +1,4 @@
-require 'board'
+require 'line'
 
 class Box
 	attr_accessor :box_name, :lines, :chip
@@ -21,7 +21,7 @@ class Box
 		end
 	end
 
-	def	add_chip
+	#def	add_chip
 			# cette methode modifie la valeur du champs :chip dans toutes les ligne ou cette case existe 
-	end	
+	#end	
 end
