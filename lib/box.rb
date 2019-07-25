@@ -5,7 +5,7 @@ class Box
 
 	def initialize(name)
 		@box_name = name
-		@chip  = 'a'
+		@chip  = ' '
 		@lines = Array.new
 		@lines[0] =  name.split('')[0]
 		@lines[1] =  name.split('')[1]
