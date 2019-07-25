@@ -8,8 +8,13 @@ require 'box'
 require 'board'
 require 'player'
 
-player1 = Player.new(1)
-player2 = Player.new(2)
-box1 = Box.new("B2")
+#player1 = Player.new(1)
+#player2 = Player.new(2)
+
+lineA = Line.new("A")
+lineB = Line.new("B")
+lineC = Line.new("C")
+
+line = Line.new('A')
 
 binding.pry
