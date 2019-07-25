@@ -7,7 +7,7 @@ $LOAD_PATH.unshift File.expand_path("lib", __dir__)
 require 'box'
 require 'board'
 require 'player'
-
+require 'line'
 #player1 = Player.new(1)
 #player2 = Player.new(2)
 
